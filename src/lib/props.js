@@ -1,4 +1,8 @@
 export default {
+  loadCounter: {
+    type: Number,
+    required: true
+  },
   data: {
     type: Array,
     required: true
@@ -55,7 +59,7 @@ export default {
   },
   keyboard: {
     type: Boolean,
-    default: true
+    default: false
   },
   type: {
     type: String,
